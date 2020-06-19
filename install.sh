@@ -214,7 +214,7 @@ alias ark="$HOME/core-bridgechain/packages/core/bin/run"
 echo 'alias domin="$HOME/core-bridgechain/packages/core/bin/run"' >> ~/.bashrc
 
 rm -rf "$HOME/core-bridgechain"
-git clone "https://github.com/xianfeic" "$HOME/core-bridgechain" || FAILED="Y"
+git clone "https://github.com/xianfeic/dm" "$HOME/core-bridgechain" || FAILED="Y"
 if [ "$FAILED" == "Y" ]; then
     echo "Failed to fetch core repo with origin 'https://github.com/xianfeic/dm'"
 
